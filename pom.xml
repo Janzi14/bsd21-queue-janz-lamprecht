@@ -7,7 +7,21 @@
     <groupId>groupId</groupId>
     <artifactId>bsd21-queue-janz-lamprecht</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <url>https://github.com/Janzi14/bsd21-queue-janz-lamprecht</url>
 
+    <developers>
+        <developer>
+            <id>Janzi14</id>
+            <name>Jakob Janz</name>
+            <email>s50919@edu.campus02.at</email>
+            <organization>FH Campus 02</organization>
+            <organizationUrl>https://www.campus02.at/</organizationUrl>
+            <roles>
+                <role>Student</role>
+            </roles>
+            <timezone>Europe/Vienna</timezone>
+        </developer>
+    </developers>
 
     <build>
         <plugins>
