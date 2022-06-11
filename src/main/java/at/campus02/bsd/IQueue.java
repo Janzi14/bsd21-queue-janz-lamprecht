@@ -1,6 +1,8 @@
 package at.campus02.bsd;
 
 // fastly written (not really nice) comments but good enough to understand
+
+// public abstract modifiers not needed in interface methods. Further procedure?
 public interface IQueue {
   /* 
   add object to queue, return true if works, otherwise false
