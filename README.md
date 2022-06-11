@@ -28,3 +28,29 @@
 | mvn site documentation  | Jakob          | y    |
 | last check              | Jakob/Benjamin |      |
 |                         |                |      |
+
+
+<!--
+look up link to optimize checklist further
+https://docs.github.com/en/issues/tracking-your-work-with-issues/about-task-lists
+-->
+- [x] create repo
+- [x] create maven project
+- [x] add .gitignore
+- [x] add README
+- [x] configure pom.xml
+- [x] add file structure
+- [x] create Markdown README
+- [x] insert template files
+- [x] resolved the 3 Errors
+- [x] configure site.xml
+- [x] update pom.xml
+- [ ] drinks implementation
+- [ ] new queue version
+- [ ] insert JavaDocComments
+- [ ] tests (100% coverage)
+- [ ] tests (new Drinks)
+- [ ] tests (JavaDoc)
+- [ ] mvn test
+- [ ] mvn site documentation
+- [ ] last check
