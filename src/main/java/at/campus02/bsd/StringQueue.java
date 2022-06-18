@@ -7,7 +7,7 @@ import java.util.NoSuchElementException;
 
 public class StringQueue implements IQueue {
 
-  private List<String> elements = new ArrayList<String>(); // shall we change it to proper "deque"?
+  private List<String> elements = new ArrayList<String>();
   private int maxSize; // removed redundant initializer
 
   public StringQueue(int maxsize) {
@@ -28,8 +28,8 @@ public class StringQueue implements IQueue {
   public String poll() {
     String element = peek();
 
-    if (elements.size() == 0) {
-      elements.remove(0); // causes OutOfBoundsException!
+    if (elements.size() != 0) { // removed potential OutOfBounds Exception
+      elements.remove(0);
     }
 
     return element;
