@@ -9,11 +9,20 @@ public class StringQueue implements IQueue {
 
   private List<String> elements = new ArrayList<String>();
   private int maxSize; // removed redundant initializer
-
+  /**
+   * reassigns new size to queue
+   *
+   * @param maxsize
+   */
   public StringQueue(int maxsize) {
     this.maxSize = maxsize;
   } // resolved constructor problems
-
+  /**
+   * add offer to List 'elements'
+   *
+   * @param obj
+   * @return boolean
+   */
   @Override
   public boolean offer(String obj) {
     if (elements.size() != maxSize) {
@@ -23,7 +32,11 @@ public class StringQueue implements IQueue {
     }
     return true;
   }
-
+  /**
+   * takes out first String in queue
+   *
+   * @return String
+   */
   @Override
   public String poll() {
     String element = peek();
@@ -34,7 +47,10 @@ public class StringQueue implements IQueue {
 
     return element;
   }
-
+  /**
+   * removes first element in queue with exception handling
+   * @return String
+   */
   @Override
   public String remove() {
     String element = poll();
@@ -43,7 +59,11 @@ public class StringQueue implements IQueue {
 
     return element;
   }
-
+  /**
+   * fetches first String in queue without removing the Drink in its queue
+   *
+   * @return String
+   */
   @Override
   public String peek() {
     String element;
@@ -54,7 +74,11 @@ public class StringQueue implements IQueue {
 
     return element;
   }
-
+  /**
+   * fetches first String in queue without removing the String in its queue with exception handling
+   *
+   * @return String
+   */
   @Override
   public String element() { // duplicate to peek
     String element = peek();
