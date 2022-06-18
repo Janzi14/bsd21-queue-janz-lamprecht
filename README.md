@@ -18,22 +18,17 @@
 | resolved the 3 Errors   | Jakob          | y    |
 | configure site.xml      | Jakob          | y    |
 | update pom.xml          | Jakob          | y    |
-| drinks implementation   | Benjamin       |      |
-| new queue version       | Jakob/Benjamin |      |
-| insert JavaDocComments  | Benjamin       |      |
-| tests (100% coverage)   | Jakob/Benjamin |      |
-| tests (new Drinks)      | Benjamin       |      |
-| tests (JavadocComments) | Benjamin       |      |
-| mvn test                | Jakob          |      |
+| drinks implementation   | Benjamin       | y    |
+| new queue version       | Jakob/Benjamin | y    |
+| insert JavaDocComments  | Benjamin       | y    |
+| tests (100% coverage)   | Jakob/Benjamin | y    |
+| tests (new Drinks)      | Jakob/Benjamin | y    |
+| tests (JavadocComments) | Jakob          | y    |
+| mvn test                | Jakob          | y    |
 | mvn site documentation  | Jakob          | y    |
-| last check              | Jakob/Benjamin |      |
-|                         |                |      |
+| last check              | Jakob/Benjamin | y    |
 
 
-<!--
-look up link to optimize checklist further
-https://docs.github.com/en/issues/tracking-your-work-with-issues/about-task-lists
--->
 - [x] create repo
 - [x] create maven project
 - [x] add .gitignore
@@ -45,12 +40,12 @@ https://docs.github.com/en/issues/tracking-your-work-with-issues/about-task-list
 - [x] resolved the 3 Errors
 - [x] configure site.xml
 - [x] update pom.xml
-- [ ] drinks implementation
-- [ ] new queue version
-- [ ] insert JavaDocComments
-- [ ] tests (100% coverage)
-- [ ] tests (new Drinks)
-- [ ] tests (JavaDoc)
-- [ ] mvn test
-- [ ] mvn site documentation
-- [ ] last check
+- [x] drinks implementation
+- [x] new queue version
+- [x] insert JavaDocComments
+- [x] tests (100% coverage)
+- [x] tests (new Drinks)
+- [x] tests (JavaDoc)
+- [x] mvn test
+- [x] mvn site documentation
+- [x] last check
